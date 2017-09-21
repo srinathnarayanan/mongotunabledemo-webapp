@@ -1,0 +1,2 @@
+E:\mongoGeoDemo\NodejsWebApp2\NodejsWebApp2\obj\Release\NodejsWebApp2.njsprojResolveAssemblyReference.cache
+E:\mongoGeoDemo\NodejsWebApp2\NodejsWebApp2\bin\Microsoft.NodejsTools.WebRole.dll

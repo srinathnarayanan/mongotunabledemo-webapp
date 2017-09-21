@@ -1,0 +1,9 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="slider">
+        <span>current throughput : {{old_throughput}} Ru/s</span>
+        <br/>
+        <input [(ngModel)]="throughput" style="width:50%" type="range" step="100" min="400" max="10000" value="10000" class="slider" id="throughput" name="throughput">
+        <br />
+        <span>selected Throughput : {{throughput}} Ru/s</span>
+        <input class="button" type="button" value="submit" (click)="updateThroughput()">
+</div>

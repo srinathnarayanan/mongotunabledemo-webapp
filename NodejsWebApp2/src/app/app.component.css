@@ -1,0 +1,28 @@
+.slider {
+  background-color: black;
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+.slider span {
+  color: rgb(43, 167, 223);
+
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  line-height: 26.4px;
+}
+
+.button {
+  margin-left : 10px;
+  padding: 4px;
+  border-radius : 5px;
+  background-color: whitesmoke;
+}
+
+.button:hover {
+  background-color: lightgray;
+  transition-duration: 1s;
+}
