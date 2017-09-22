@@ -2,10 +2,10 @@ var path = require('path'),
     rootPath = path.normalize(__dirname + '/..'),
     env = process.env.NODE_ENV || 'development';
 
-const port = 10255;
-const username = 'srnara-mongo';
-const password = 'U68fGdnhY89NU36Nss5sqzEouVRrxZ5aBcPvC0PXV0jsWbvFZnrDsOWNIv7FC3jpZzZiDeq3GfpPGkVZLIgd5Q==';
-const documentDbEndPoint = 'https://srnara-mongo.documents.azure.com';
+const port = YOUR_MONGO_PORT;
+const username = YOUR_MONGO_USERNAME;
+const password = YOUR_MONGO_PASSWORD;
+const documentDbEndPoint = 'https://' + YOUR_MONGO_HOST
 
 const dbName = 'nodetest';
 
